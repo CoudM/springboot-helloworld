@@ -9,7 +9,7 @@ public class HomeController {
     @RequestMapping("/")
     String home() {
         //from Test CI/CD
-        String msg = "Hello World!";
+        String msg = "TCNPlatform:Hello World!";
         System.out.println(msg);
         return msg;
     }
