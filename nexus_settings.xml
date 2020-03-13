@@ -4,7 +4,7 @@
     <mirror>
       <id>Nexus</id>
       <name>Nexus Public Mirror</name>
-      <url>http://172.20.252.210:8081/repository/maven-public/</url>
+      <url>http://nexus-service:8081/repository/maven-public/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
@@ -12,7 +12,7 @@
   <server>
     <id>nexus</id>
     <username>admin</username>
-    <password>admin123</password>
+    <password>workshop@123</password>
   </server>
 </servers>
 </settings>
