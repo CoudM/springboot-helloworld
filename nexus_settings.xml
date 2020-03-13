@@ -2,8 +2,8 @@
 <settings>
   <mirrors>
     <mirror>
-      <id>Tencent Cloud Mirror</id>
-      <name>Tencent Cloud Mirror</name>
+      <id>Local Nexus</id>
+      <name>Local Nexus</name>
       <url>http://nexus-service:8081/repository/maven-central/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
