@@ -4,7 +4,7 @@
     <mirror>
       <id>Tencent Cloud Mirror</id>
       <name>Tencent Cloud Mirror</name>
-      <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+      <url>http://mirrors.tencentyun.com/nexus/repository/maven-public/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
