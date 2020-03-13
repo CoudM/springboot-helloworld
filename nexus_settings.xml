@@ -4,7 +4,7 @@
     <mirror>
       <id>Nexus</id>
       <name>Nexus Public Mirror</name>
-      <url>http://nexus-service:8081/repository/maven-public/</url>
+      <url>https://maven.aliyun.com/repository/public/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
