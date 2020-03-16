@@ -22,10 +22,8 @@
     <build>
 	    <defaultGoal>compile</defaultGoal>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-	        </plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+        	 <artifactId>maven-surefire-report-plugin</artifactId>
         </plugins>
     </build>
 
@@ -34,6 +32,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>2.22.2</version>
             </plugin>
         </plugins>
     </reporting>
@@ -61,11 +60,6 @@
             <scope>test</scope>
         </dependency>
 
-         <dependency>
-            <groupId>org.apache.maven.surefire</groupId>
-            <artifactId>surefire-junit47</artifactId>
-            <version>2.22.2</version>
-         </dependency>
     </dependencies>
 
 </project>
